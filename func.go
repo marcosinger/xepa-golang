@@ -4,11 +4,12 @@ import "fmt"
 
 // start func OMIT
 func main() {
-  name := Hello("Rocky Balboa")
-  fmt.Println(name);
+	message := Hello("Rocky Balboa")
+	fmt.Println(message)
 }
 
 func Hello(name string) string { // HL
-  return fmt.Sprintf("Hey %s, my friend..", name)
+	return fmt.Sprintf("Hey %s, my friend..", name)
 }
+
 // end func OMIT
