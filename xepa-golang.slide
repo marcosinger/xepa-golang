@@ -29,6 +29,10 @@ http://github.com/marcosinger
 * Funções
 .play func.go /start func OMIT/,/end func OMIT/
 
+* Error Handling
+No Go não existe Exception. Ao invés disso, passamos o erro como mais um parâmetro da função/método
+.play error_handling.go /start error_handling OMIT/,/end error_handling OMIT/
+
 * Struct
 
 Structs são basicamente coleções de campos
@@ -41,7 +45,7 @@ Várias maneiras de se iniciar um struct
 .code struct.go /start struct rocky OMIT/,/end struct rocky OMIT/
 .code struct.go /start struct yoda OMIT/,/end struct yoda OMIT/
 
-* Struct
+* Struct (cont.)
 .code struct.go /start struct OMIT/,/end struct OMIT/
 .play struct.go /start print struct OMIT/,/end print struct OMIT/
 
@@ -53,3 +57,31 @@ Adicionando métodos aos struts
 .code struct.go /start method OMIT/,/end method OMIT/
 .play struct.go /start print method OMIT/,/end print method OMIT/
 
+* Interface
+Podemos fazer o mesmo, mas usando interfaces
+
+.code interfaces.go /start interface OMIT/,/end interface OMIT/
+.play interfaces.go /start print interface OMIT/,/end print interface OMIT/
+
+* Interface (cont.)
+Ou subir um servidor web
+
+.code http.go
+
+* Onde aprender mais
+.link http://tour.golang.org/#1 Go Tour
+.link http://golang.org/pkg/ Standard library
+.link http://golang.org/doc/effective_go.html Effective Go
+.link https://gobyexample.com Go by Example
+
+* Comunidade
+.link https://groups.google.com/forum/#!forum/golang-nuts Golang-nuts (en)
+.link https://groups.google.com/forum/#!forum/golang-brasil Golang Brasil
+
+.link https://twitter.com/golang
+.link https://twitter.com/golangweekly
+.link https://twitter.com/enneff Andrew Gerrand
+.link https://twitter.com/bketelsen Brian Ketelsen
+.link https://twitter.com/gniemeyer Gustavo Niemeyer
+.link https://twitter.com/davecheney Dave Cheney
+.link https://twitter.com/codegangsta Jeremy Saenz
