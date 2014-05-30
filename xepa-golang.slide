@@ -30,7 +30,6 @@ http://github.com/marcosinger
 .play func.go /start func OMIT/,/end func OMIT/
 
 * Error Handling
-No Go não existe Exception. Ao invés disso, passamos o erro como mais um parâmetro da função/método
 .play error_handling.go /start error_handling OMIT/,/end error_handling OMIT/
 
 * Struct
