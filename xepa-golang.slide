@@ -1,0 +1,55 @@
+Golang
+Segurança de liguagem tipada e diversão de linguagem dinâmica
+
+Marco Singer
+marco@loldesign.com.br
+http://loldesign.com.br
+@mahsinger
+
+* História
+- Criada em Setembro/2007
+- Robert Griesemer (V8), Rob Pike e Ken Thompson (UTF-8, Unix, B language, Plan 9)
+- Open source em Novembro/2009
+- Primeira release Março/2012
+
+* Porque mais uma linguagem?
+- unir o melhor dos mundos (tipagem estática e tipagem dinâmica)
+- compilação eficiente, execução eficiente e fácil de se programar
+- GC, paralelismo e concorrência sem sustos ou mágicas
+
+* Primeiros passos
+
+* Começando a usar
+.link http://golang.org/doc/install#install download (stable 1.2.2)
+.link http://play.golang.org/
+
+* Hello world
+.play hello.go
+
+* Funções
+.play func.go /start func OMIT/,/end func OMIT/
+
+* Struct
+
+Structs são basicamente coleções de campos
+
+.code struct.go /start struct OMIT/,/end struct OMIT/ HLStruct
+
+Várias maneiras de se iniciar um struct
+
+.code struct.go /start struct apollo OMIT/,/end struct apollo OMIT/
+.code struct.go /start struct rocky OMIT/,/end struct rocky OMIT/
+.code struct.go /start struct yoda OMIT/,/end struct yoda OMIT/
+
+* Struct
+.code struct.go /start struct OMIT/,/end struct OMIT/
+.play struct.go /start print struct OMIT/,/end print struct OMIT/
+
+* Métodos
+
+Adicionando métodos aos struts
+
+.code struct.go /start struct OMIT/,/end struct OMIT/
+.code struct.go /start method OMIT/,/end method OMIT/
+.play struct.go /start print method OMIT/,/end print method OMIT/
+
