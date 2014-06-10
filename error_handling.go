@@ -17,7 +17,7 @@ func main() {
 }
 
 func VerifyName(name string) (string, error) { // HL
-	if name != "Eike Batista" {
+	if name != "Chiquinho Scarpa" {
 		return "", errors.New("Erro: Seu nome não está na lista VIP")
 	}
 
