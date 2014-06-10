@@ -20,6 +20,19 @@ http://github.com/marcosinger
 - compilação eficiente, execução eficiente e fácil de se programar
 - GC, paralelismo e concorrência sem sustos ou mágicas
 
+* Quem está usando?
+
+- Canonical
+- Heroku
+- Docker
+- Soundcloud
+- Google
+- Loldesign :)
+
+* Quem está usando?
+
+.iframe http://golangprojects.com/golang-go-job-hq-Senior-SW-Backend/Devops-Engineer-Cupertino-Apple.html 768 1000
+
 * Primeiros passos
 
 * Começando a usar
@@ -71,6 +84,15 @@ Ou subir um servidor web
 
 .code http.go
 
+* Não para por ai
+
+- Goroutines
+- Channels
+- Closures
+- Slices
+- Range
+
+
 * Onde aprender mais
 .link http://tour.golang.org/#1 Go Tour
 .link http://golang.org/pkg/ Standard library
@@ -88,3 +110,12 @@ Ou subir um servidor web
 .link https://twitter.com/gniemeyer Gustavo Niemeyer
 .link https://twitter.com/davecheney Dave Cheney
 .link https://twitter.com/codegangsta Jeremy Saenz
+
+* Mais referências, posts, livros e etc
+.link https://code.google.com/p/go-wiki/wiki/Projects#Table_of_Contents
+.link http://go-lang.cat-v.org
+.link http://blog.golang.org/go-at-heroku
+.link http://www.alexedwards.net/blog/a-recap-of-request-handling
+.link https://leanpub.com/GoNotebook
+.link http://dave.cheney.net/2014/06/07/five-things-that-make-go-fast
+.link http://www.wired.com/2014/06/eric-brewer-google-docker/
