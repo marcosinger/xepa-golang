@@ -1,0 +1,11 @@
+code, err := SomeFunction()
+
+if err != nil {
+  // ...
+}
+
+message, status, err2 := AnotherFunction()
+
+if err2 != nil {
+  // ...
+}

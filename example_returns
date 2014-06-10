@@ -1,0 +1,4 @@
+func MyFunction(code int) (string, string, string, int, bool) {
+  return str1, str2, str3, code, ok
+}
+

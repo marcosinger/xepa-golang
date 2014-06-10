@@ -42,12 +42,31 @@ http://github.com/marcosinger
 * Hello world
 .play hello.go
 
+Para rodar esse código localmente é só fazer assim:
+*go* _run_ nome_do_arquivo.go
+
 * Funções
 .play func.go /start func OMIT/,/end func OMIT/
 
 * Error Handling
 
 .play error_handling.go /start error_handling OMIT/,/end error_handling OMIT/
+
+* Declaração mais simplificada
+
+.play error_handling_2.go /start error_handling OMIT/,/end error_handling OMIT/
+
+Usado para simplificar coisas como:
+
+.code example_variables
+
+* Declaração mais simplificada (cont.)
+
+.play error_handling_3.go /start error_handling OMIT/,/end error_handling OMIT/
+
+Usado para simplificar coisas como:
+
+.code example_returns
 
 * Struct
 
